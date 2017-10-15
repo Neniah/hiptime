@@ -1,0 +1,6 @@
+<%= simple_form_for @item do |f| %>
+  <%= f.input :title, label: 'Item Title', input_html: {class: 'form-control' } %>
+  <%= f.input :description, input_html: {class: 'form-control' } %>
+  <br>
+  <%= f.button :submit, class: 'btn btn-default'  %>
+<% end %>
